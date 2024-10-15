@@ -161,16 +161,9 @@ h6 {
 
 .header .logo img {
   max-height: 36px;
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
-.header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--heading-color);
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu

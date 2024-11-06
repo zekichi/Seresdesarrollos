@@ -878,25 +878,27 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* Hero Section */
 .hero {
   --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100vh; /* Mantén la altura original */
   position: relative;
   padding: 160px 0 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-.hero img {
+.hero-background {
   position: absolute;
   inset: 0;
-  display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -904,25 +906,46 @@ section,
   content: "";
   position: absolute;
   inset: 0;
+  background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
 
 .hero .container {
-  padding-top: 20%;
+  padding-top: 5%; /* Reduce el espacio en el contenedor interno */
+  max-width: 800px; /* Limita el ancho del contenido */
   position: relative;
   z-index: 3;
+  text-align: center;
+}
+
+/* Contenedor y estilo para la imagen del logo */
+.logo-wrapper {
+  width: 120px; /* Reduce el tamaño del contenedor del logo */
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 36px; /* Ajusta el tamaño del texto */
   text-transform: uppercase;
   font-weight: 700;
+  color: var(--heading-color);
 }
 
 .hero p {
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 20px;
   color: var(--heading-color);
 }
 
@@ -946,13 +969,14 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # About Section

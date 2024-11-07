@@ -475,12 +475,8 @@ h6 {
 /* Footer global con colores y alineación */
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
   background-color: #000;
   color: #fff;
-  background-image: url("ruta/del/fondo-topografico.png"); /* Asegúrate de cambiar la ruta */
   background-size: cover;
   background-position: center;
 }
@@ -489,7 +485,7 @@ h6 {
 
 .footer {
   display: flex;
-  height: 250px; /* Ajusta la altura según sea necesario */
+  height: 300px; /* Ajusta la altura según sea necesario */
   background-color: #000;
   color: #fff;
 }
@@ -515,7 +511,7 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
   text-align: left;
 }
 

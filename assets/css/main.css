@@ -473,90 +473,108 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 /* Footer global con colores y alineación */
+/* Estilo general para el footer */
 .footer {
+  height: 300px;
   display: flex;
-  background-color: #000;
+  flex-direction: row;
+  background-color: #333;
   color: #fff;
-  background-size: cover;
-  background-position: center;
+  overflow-x: hidden;
+  margin: 0; /* Eliminar margen */
+  padding: 0; /* Eliminar padding */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
-/* Secciones del footer */
-
-.footer {
-  display: flex;
-  height: 300px; /* Ajusta la altura según sea necesario */
+/* Estilo para la sección inferior del footer */
+.footer-bottom {
+  margin: 0; /* Eliminar cualquier margen */
+  text-align: center;
   background-color: #000;
-  color: #fff;
+  padding: 0; /* Eliminar cualquier padding */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
-/* Imagen decorativa ocupa la mitad izquierda */
+/* Estilos para la imagen decorativa */
 .footer-left {
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
-
 .footer-left img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Contenido del footer en la mitad derecha */
+
+/* Estilo para la información */
 .footer-right {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 50px;
-  text-align: left;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px ;
 }
 
-.footer-right h4 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #fff;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.footer-right p {
-  margin: 5px 0;
-  color: #ddd;
-}
-
-.footer-center {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #fff;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-top: 10px;
-}
-
-/* Iconos de redes sociales */
-.social-icons {
-  margin-top: 15px;
-  font-size: 1.5em;
-}
-
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-/* Pie de página inferior */
-.footer-bottom {
-  background-color: #111;
-  padding: 10px 0;
+/* Estilos de texto en footer */
+.footer-right .direccion,
+.footer-right .contacto {
   text-align: center;
-  font-size: 0.8em;
-  color: #bbb;
+  margin: 0; /* Asegura que no haya margen adicional */
+  padding: 0%;
+  margin-bottom: 10px;
+}
+
+/* Estilo del texto de la dirección y contacto */
+.footer-right .direccion h4,
+.footer-right .contacto h4 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #d1d1d1;
+}
+
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  .footer-right {
+      flex-direction: row;
+      text-align: left;
+  }
+
+  .footer-left {
+      display: block;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-left {
+      display: none;
+  }
+
+  .footer-right {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-right .direccion,
+  .footer-right .contacto,
+  .footer-right .creado-por {
+      text-align: center;
+      padding-top: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -963,81 +981,6 @@ section,
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
-.services .service-item {
-  text-align: center;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  height: 100%;
-}
-
-.services .service-item .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: var(--accent-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
-  transform-style: preserve-3d;
-}
-
-.services .service-item .icon i {
-  color: var(--contrast-color);
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-}
-
-.services .service-item .icon::before {
-  position: absolute;
-  content: "";
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: color-mix(in srgb, var(--accent-color), transparent 80%);
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.services .service-item h3 {
-  font-weight: 700;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .service-item:hover {
-  background: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.services .service-item:hover .icon {
-  background: var(--contrast-color);
-}
-
-.services .service-item:hover .icon i {
-  color: var(--accent-color);
-}
-
-.services .service-item:hover .icon::before {
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
-}
-
-.services .service-item:hover h3,
-.services .service-item:hover p {
-  color: var(--contrast-color);
-}
 
 /*--------------------------------------------------------------
 # Call To Action Section
@@ -1752,3 +1695,8 @@ section,
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
+#loom-companion-mv3 {
+  display: none !important;
+}
+

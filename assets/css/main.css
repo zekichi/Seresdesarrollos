@@ -854,7 +854,12 @@ section,
   background: var(--accent-color);
   border-color: var(--accent-color);
 }
-
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .square-image-wrapper img {
+    width: 150px; /* Tamaño reducido para pantallas móviles */
+  }
+}
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 28px;

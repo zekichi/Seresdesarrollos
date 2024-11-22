@@ -61,10 +61,21 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="nav-link scrollto">Inicio</a></li>
-            <li><a href="index.html" class="nav-link scrollto">Nosotros</a></li>
-            <li><a href="index.html" class="nav-link scrollto">Portfolio</a></li>
-            <li><a href="index.html" class="nav-link scrollto">Equipo</a></li>
+
+            <li><a href="#hero" data-section="nav" data-value="menu-1">Inicio</a></li>
+            <li><a href="#about"  data-section="nav" data-value="menu-2">Sobre Nosotros</a></li>
+            <li><a href="#portfolio"  data-section="nav" data-value="menu-3">Portfolio</a></li>
+            <li><a href="#team"  data-section="nav" data-value="menu-4">Equipo</a></li>
+            <li class="dropdown-language">
+              <button class="dropdown-toggle">🌐 Idioma</button>
+              <ul class="dropdown-menu"  id="flags">
+                <li data-language="es"><a href="#">Español</a></li>
+                <li data-language="en"><a href="#">English</a></li>
+                <!-- <li data-language="pt"><a href="#">Português</a></li> -->
+              </ul>
+            </li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+          </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
       </div>

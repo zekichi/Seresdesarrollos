@@ -23,5 +23,12 @@
     "cta":{
         "text": "Emprendimientos inmobiliarios de inversión y calidad de vida.",
         "follow": "Seguinos"
+    },
+    "portfolio":{
+        "menu-1": "Todo",
+        "menu-2": "Venta en obra",
+        "menu-3": "Preventa",
+        "menu-4": "Proximamente"
     }
+
 }

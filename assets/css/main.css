@@ -274,6 +274,49 @@ h6 {
   }
 }
 
+/* Dropdown específico para idiomas */
+.dropdown-language .dropdown-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-language .dropdown-menu {
+  display: none; /* Oculto por defecto */
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 4px;
+  z-index: 1;
+  min-width: 120px;
+}
+
+.dropdown-language .dropdown-menu li {
+  padding: 8px 16px;
+}
+
+.dropdown-language .dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-language .dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Mostrar menú al hover */
+.dropdown-language:hover .dropdown-menu {
+  display: block;
+}
+
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
@@ -396,7 +439,19 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+
+  .dropdown-language .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  .dropdown-language .dropdown-menu li {
+    padding: 10px 20px;
+  }
+  
 }
+
 
 /* Listing Dropdown - Desktop */
 @media (min-width: 1200px) {
@@ -425,6 +480,15 @@ h6 {
     flex: 1;
   }
 
+/* Muestra el menú cuando tiene la clase "show" */
+#flags.show {
+  display: block;
+}
+
+.dropdown-menu.active {
+    display: block;
+}
+
   .navmenu .listing-dropdown ul li a,
   .navmenu .listing-dropdown ul li:hover>a {
     padding: 10px 20px;
@@ -446,6 +510,7 @@ h6 {
     visibility: visible;
   }
 }
+
 
 /* Listing Dropdown - Mobile */
 @media (max-width: 1199px) {

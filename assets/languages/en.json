@@ -1,0 +1,34 @@
+{
+    "nav":{
+        "menu-1": "Home",
+        "menu-2": "About Us",
+        "menu-3": "Portfolio",
+        "menu-4": "Team"
+    },
+    "about":{
+        "span": "About Us",
+        "title-section": "About Us",
+        "title": "Us",
+        "parraf-1": "At Seres Desarrollos, we are passionate about transforming innovative ideas into residential projects that enhance people's lives. Our inspiration comes from the constant pursuit of a more interesting and healthy lifestyle, whether in the city or surrounded by nature.",
+        "parraf-2": "Each project we create is an opportunity to transform spaces into unique places where our clients and investors can find their ideal spot. We believe in the power of purposeful construction and the ability of well-designed environments to positively influence quality of life. We are driven by a commitment to well-being and a vision that combines modernity with a connection to the surroundings, because we know that every detail matters in making each development a special place to live."
+    },
+    "cards":{
+        "card-1": "Innovative, high-quality developments focused on enhancing people's experiences.",
+        "card-2": "Land in prime locations with outstanding features and excellent appreciation.",
+        "card-3": "Creative projects with innovative architecture and great design.",
+        "card-4": "Amenities with a holistic vision that integrate physical and emotional well-being.",
+        "car-5": "Sustainable technologies and infrastructures reduce environmental impact and enhance quality of life.",
+        "card-6": "Buildings that positively connect with the natural environment."
+    },
+    "cta":{
+        "text": "Real estate investment ventures and quality of life.",
+        "follow": "Follow Us"
+    },
+    "portfolio":{
+        "menu-1": "All",
+        "menu-2": "Off-plan sale",
+        "menu-3": "Pre-sale",
+        "menu-4": "Comming soon"
+    }
+
+}

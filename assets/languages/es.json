@@ -1,0 +1,27 @@
+{
+    "nav":{
+        "menu-1": "Inicio",
+        "menu-2": "Nosotros",
+        "menu-3": "Portfolio",
+        "menu-4": "Equipo"
+    },
+    "about":{
+        "span": "Sobre Nosotros",
+        "title-section": "Sobre Nosotros",
+        "title": "Nosotros",
+        "parraf-1": "En Seres Desarrollos nos apasiona convertir ideas innovadoras en proyectos residenciales que mejoren la vida de las personas. Nuestra inspiración proviene de la búsqueda constante de una vida más interesante y saludable, ya sea en la ciudad o en plena naturaleza.",
+        "parraf-2": " Cada proyecto que creamos es una oportunidad para transformar espacios en lugares únicos, donde nuestros clientes e inversores puedan encontrar su lugar ideal. Creemos en el poder de la construcción con propósito y en la capacidad de los entornos bien diseñados para influir positivamente en la calidad de vida. Nos impulsa un compromiso con el bienestar y una visión que combina modernidad y conexión con el entorno, porque sabemos que cada detalle cuenta para hacer de cada desarrollo un lugar especial para vivir."
+    },
+    "cards":{
+        "card-1": "Emprendimientos vanguardistas de alta calidad con foco en la experiencia de las personas.",
+        "card-2": "Terrenos en locaciones privilegiadas con características sobresalientes y excelente valorización.",
+        "card-3": "Proyectos creativos con arquitecturas innovadoras y buen diseño.",
+        "card-4": "Amenities con visión holistica que integran la salud física y emocional.",
+        "card-5": "Tecnologías e infraestructuras sustentables, reducen el impacto ambiental y mejoran la calidad de vida.",
+        "card-6": "Edificios que se relacionan positivamente con el entorno natural."
+    },
+    "cta":{
+        "text": "Emprendimientos inmobiliarios de inversión y calidad de vida.",
+        "follow": "Seguinos"
+    }
+}

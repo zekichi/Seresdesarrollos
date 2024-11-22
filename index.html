@@ -20,7 +20,7 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
@@ -54,10 +54,18 @@
         <nav id="navmenu" class="navmenu">
           <ul>
 
-            <li><a href="#hero" class="">Inicio</a></li>
-            <li><a href="#about">Sobre Nosotros</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <!-- <li><a href="#team">Equipo</a></li>-->
+            <li><a href="#hero" data-section="nav" data-value="menu-1">Inicio</a></li>
+            <li><a href="#about"  data-section="nav" data-value="menu-2">Sobre Nosotros</a></li>
+            <li><a href="#portfolio"  data-section="nav" data-value="menu-3">Portfolio</a></li>
+            <li><a href="#team"  data-section="nav" data-value="menu-4">Equipo</a></li>
+            <li class="dropdown-language">
+              <button class="dropdown-toggle">🌐 Idioma</button>
+              <ul class="dropdown-menu"  id="flags">
+                <li data-language="es"><a href="#">Español</a></li>
+                <li data-language="en"><a href="#">English</a></li>
+                <!-- <li data-language="pt"><a href="#">Português</a></li> -->
+              </ul>
+            </li>
             <!-- <li><a href="#contact">Contact</a></li> -->
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -81,7 +89,7 @@
             <div class="square-image-wrapper">
               <img src="assets/img/logo seresd.png" alt="" class="img-fluid">
             </div>
-            <a href="#about" class="btn-get-started mt-3">Conocenos</a>
+            <a href="#about" class="btn-get-started mt-3">↧</a>
           </div>
         </div>
       </div>
@@ -92,8 +100,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Sobre Nosotros<br></span>
-        <h2>Sobre Nosotros<br></h2>
+        <span data-section="about" data-value="span">Sobre Nosotros<br></span>
+        <h2 data-section="about" data-value="title-section">Sobre Nosotros<br></h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -105,11 +113,11 @@
           </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Nosotros</h3>
-            <p class="fst-italic">
+            <h3 data-section="about" data-value="title">Nosotros</h3>
+            <p class="fst-italic" data-section="about" data-value="parraf-1">
               En Seres Desarrollos nos apasiona convertir ideas innovadoras en proyectos residenciales que mejoren la vida de las personas. Nuestra inspiración proviene de la búsqueda constante de una vida más interesante y saludable, ya sea en la ciudad o en plena naturaleza.
             </p>
-            <p class="fst-italic">
+            <p class="fst-italic" data-section="about" data-value="parraf-2">
               Cada proyecto que creamos es una oportunidad para transformar espacios en lugares únicos, donde nuestros clientes e inversores puedan encontrar su lugar ideal. Creemos en el poder de la construcción con propósito y en la capacidad de los entornos bien diseñados para influir positivamente en la calidad de vida. Nos impulsa un compromiso con el bienestar y una visión que combina modernidad y conexión con el entorno, porque sabemos que cada detalle cuenta para hacer de cada desarrollo un lugar especial para vivir.
             </p>
 
@@ -131,32 +139,32 @@
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="100">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/vision2.svg" class="attachment-large size-large wp-image-311" alt=""></span>
-            <p>Emprendimientos vanguardistas de alta calidad con foco en la experiencia de las personas.</p>
+            <p data-section="cards" data-value="card-1">Emprendimientos vanguardistas de alta calidad con foco en la experiencia de las personas.</p>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="200">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/terrenos4_ok.svg" class="attachment-large size-large wp-image-814" alt=""></span>
-            <p>Terrenos en locaciones privilegiadas con características sobresalientes y excelente valorización.</p>
+            <p data-section="cards" data-value="card-2">Terrenos en locaciones privilegiadas con características sobresalientes y excelente valorización.</p>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="300">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/arq2.svg" class="attachment-large size-large wp-image-307" alt=""></span>
-            <p>Proyectos creativos con arquitecturas innovadoras y buen diseño.</p>
+            <p data-section="cards" data-value="card-3">Proyectos creativos con arquitecturas innovadoras y buen diseño.</p>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/wellness2.svg" class="attachment-large size-large wp-image-312" alt=""></span>
-            <p>Amenities con visión holistica que integran la salud física y emocional.</p>
+            <p data-section="cards" data-value="card-4">Amenities con visión holistica que integran la salud física y emocional.</p>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/tech2.svg" class="attachment-large size-large wp-image-309" alt=""></span>
-            <p>Tecnologías e infraestructuras sustentables, reducen el impacto ambiental y mejoran la calidad de vida.</p>
+            <p data-section="cards" data-value="card-5">Tecnologías e infraestructuras sustentables, reducen el impacto ambiental y mejoran la calidad de vida.</p>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="600">
             <span><img loading="lazy" decoding="async" width="70" height="70" src="https://seresdesarrollos.com/wp-content/uploads/2021/03/nature2.svg" class="attachment-large size-large wp-image-308" alt=""></span>
-            <p>Edificios que se relacionan positivamente con el entorno natural.</p>
+            <p data-section="cards" data-value="card-6">Edificios que se relacionan positivamente con el entorno natural.</p>
           </div><!-- End Card Item -->
 
         </div>
@@ -164,8 +172,6 @@
       </div>
 
     </section><!-- /Cards Section -->
-
-    <
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section">
@@ -177,9 +183,9 @@
           <div class="col-xl-10">
             <div class="text-center">
               <h3>Seres Desarrollos</h3>
-              <p>Emprendimientos inmobiliarios de inversión y calidad de vida.
+              <p data-section="cta" data-value="text">Emprendimientos inmobiliarios de inversión y calidad de vida.
               </p>
-              <a class="cta-btn" href="https://www.instagram.com/seresdesarrollos_/" target="_blank">Seguinos</a>
+              <a class="cta-btn" href="https://www.instagram.com/seresdesarrollos_/" target="_blank" data-section="cta" data-value="follow">Seguinos</a>
             </div>
           </div>
         </div>
@@ -201,10 +207,10 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-ventaenobra">Venta en obra</li>
-            <li data-filter=".filter-preventa">Preventa</li>
-            <li data-filter=".filter-proximo">Proximamente</li>
+            <li data-filter="*" class="filter-active" data-section="portfolio" data-value="menu-1">Todos</li>
+            <li data-filter=".filter-ventaenobra" data-section="portfolio" data-value="menu-2">Venta en obra</li>
+            <li data-filter=".filter-preventa" data-section="portfolio" data-value="menu-3">Preventa</li>
+            <li data-filter=".filter-proximo" data-section="portfolio" data-value="menu-4">Proximamente</li>
           </ul> <!--End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -212,7 +218,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ventaenobra">
               <img src="assets/img/masonry-portfolio/GUEMES_-01.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Venta en obra</h4>
+                <h4><a href="portfolio-guemes.html">Guemes Haus</a></h4>
                 <p>Guemes Haus</p>
                 <a href="assets/img/masonry-portfolio/GUEMES_-01.jpeg" title="Güemes" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-guemes.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -235,7 +241,7 @@
                 <h4>Preventa</h4>
                 <p>Live Patagonia</p>
                 <a href="assets/img/masonry-portfolio/Sereslive.jpg" title="Preventa" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!--<a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
+                <a href="portfolio-live.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div> <!-- End Portfolio Item -->
 
@@ -331,15 +337,15 @@
       </div>
     </section>
 
-    <!-- Team Section 
+    <!-- Team Section -->
     <section id="team" class="team section">
 
-      Section Title 
+     <!--Section Title --> 
       <div class="container section-title" data-aos="fade-up">
         <span>Equipo</span>
         <h2>Equipo</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>  End Section Title 
+      </div>  <!--End Section Title--> 
 
       <div class="container">
 
@@ -364,7 +370,7 @@
             </div>
           </div> 
 
-           End Team Member 
+          <!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
@@ -402,13 +408,14 @@
                 </div>
               </div>
             </div>
-          </div> End Team Member 
+          </div> 
+          <!-- End Team Member--> 
 
         </div>
 
       </div>
 
-    </section> /Team Section -->
+    </section><!--/Team Section -->
   </main>
 
  <!-- Footer -->
@@ -449,7 +456,7 @@
 </div>
 
 <!-- FontAwesome para los iconos de redes sociales -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>-->
 
 
   <!-- Scroll Top -->
@@ -462,7 +469,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!--<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>-->
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

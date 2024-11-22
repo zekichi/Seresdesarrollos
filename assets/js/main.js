@@ -5,6 +5,47 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+// Selecciona el botón y el menú
+const dropdownToggle = document.querySelector('.dropdown-toggle');
+const dropdownMenu = document.getElementById('flags');
+
+// Maneja el clic en el botón para mostrar/ocultar el menú
+dropdownToggle.addEventListener('click', (e) => {
+  e.stopPropagation(); // Evita el cierre inmediato
+  dropdownMenu.classList.toggle('show');
+});
+
+// Cierra el menú si haces clic fuera de él
+document.addEventListener('click', () => {
+  dropdownMenu.classList.remove('show');
+});
+
+// Evita que el clic dentro del menú cierre el desplegable
+dropdownMenu.addEventListener('click', (e) => {
+  e.stopPropagation();
+});
+
+const flagsElement = document.getElementById("flags");
+
+const textToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async language =>{
+    const requestJson = await fetch(`assets/languages/${language}.json`);
+    const text= await requestJson.json();
+
+    for (const element of textToChange){
+      const section = element.dataset.section;
+      const value = element.dataset.value;
+
+      element.innerHTML = text[section][value];
+    }
+};
+
+flagsElement.addEventListener('click', (e) =>{
+  changeLanguage(e.target.parentElement.dataset.language);
+});
+/*assets\languages\en.json*/
+
 
 (function() {
   "use strict";

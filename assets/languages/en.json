@@ -29,6 +29,28 @@
         "menu-2": "Off-plan sale",
         "menu-3": "Pre-sale",
         "menu-4": "Comming soon"
+    },
+
+
+    "estado":{
+        "titulo": "Project Status"
+    },
+
+    "text-are":{
+        "titulo":"Discover Your Haven in the Heart of Bariloche",
+        "parraf-1":"Located in Bariloche's exclusive Country Club, we are crafting 8 modern homes of 140 m², designed to deliver an exceptional lifestyle.",
+        "parraf-2":"Each home, spread across two floors, features 3 bedrooms (one en-suite), a bathroom, a spacious double-height living-dining area, a kitchen with a breakfast bar, and a semi-covered deck with a grill. Additionally, each unit includes a covered garage and a storage space.",
+        "parraf-3":"The houses are north-facing, with large windows that open to breathtaking landscapes. The deck connects to a private garden, extending toward the polo field, while the wooded slopes of Cerro Otto provide a stunning backdrop visible from every residence.",
+        "parraf-4":"Here, you'll enjoy a life in harmony with nature, where exercise and social living blend seamlessly with serene spaces for contemplation, all within a thoughtfully designed environment. The privacy of your home is perfectly complemented by the comfort and entertainment offered by the most developed Country Club in Patagonia. A privileged haven to experience Patagonia, whether as a vacation retreat or your permanent home, without compromising on comfort. Welcome to your new lifestyle!"
+    },
+
+    "diseño-are":{
+        "titulo": "Diseño",
+        "parraf-1": "The architecture by Studio Erppen is inspired by a deep connection with the landscape, achieving a harmonious fusion with nature. Its organic design features a faceted roof that blends subtly with the surroundings, evoking the rocky formations of the mountain range.",
+        "parraf-2": "The result is a contemporary proposal that reflects the aesthetics and architectural approach of Central Europe, creating a space that is not only visually striking but also respects and enhances the natural beauty that surrounds it.",
+        "titulo-2": "Designed for Sustainability",
+        "parraf-3": "A sustainable approach is fundamental to well-thought-out and responsible architecture. Our project integrates passive energy efficiency technologies and offers clients various complementary infrastructures, including photovoltaic panels and solar collectors, to promote self-sufficiency in electricity and hot water.",
+        "parraf-4": "Landscaping with native species fosters integration with the surroundings, while the bio-environmental lagoon creates an ideal habitat for birds and aquatic plants. Additionally, a garden designed for growing vegetables and herbs provides a deeper connection to nature's cycles."
     }
 
 }

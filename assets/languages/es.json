@@ -29,6 +29,30 @@
         "menu-2": "Venta en obra",
         "menu-3": "Preventa",
         "menu-4": "Proximamente"
+    },
+
+
+    "estado":{
+        "titulo": "Project Status"
+    },
+
+
+    "text-are":{
+        "titulo": "Descubre Tu Refugio en el Corazón de Bariloche",
+        "parraf-1":"Ubicado en el exclusivo Club de Campo de Bariloche, estamos creando 8 modernas casas de 140 m², diseñadas para ofrecer un estilo de vida excepcional.",
+        "parraf-2": "vivienda, distribuida en dos plantas, cuenta con 3 dormitorios (uno en suite), baño, un amplio living-comedor con doble altura, cocina con barra y un deck semicubierto con parrilla. Además, cada unidad incluye garaje cubierto y un espacio de depósito.",
+        "parraf-3": " Las casas están orientadas hacia el norte, con grandes ventanales que se abren al impresionante paisaje. El deck conecta con un jardín privado, y más allá, la cancha de polo, mientras que las laderas boscosas del Cerro Otto enmarcan vistas espectaculares desde cada residencia.",
+        "parraf-4": " Las casas están orientadas hacia el norte, con grandes ventanales que se abren al impresionante paisaje. El deck conecta con un jardín privado, y más allá, la cancha de polo, mientras que las laderas boscosas del Cerro Otto enmarcan vistas espectaculares desde cada residencia."
+    },
+    "diseño-are":{
+        "titulo": "Desing",
+        "parraf-1": "La arquitectura del estudio Erppen está inspirada en una profunda conexión con el paisaje, logrando una fusión armoniosa con la naturaleza. Su diseño orgánico presenta una cubierta facetada que se integra de manera sutil con el entorno, evocando las formaciones rocosas de la cordillera.",
+        "parraf-2": " El resultado es una propuesta contemporánea que refleja la estética y el enfoque arquitectónico de la Europa central, creando un espacio que no solo es visualmente impactante, sino que también respeta y realza la belleza natural que lo rodea.",
+        "titulo-2": "Diseñado para la Sustentabilidad",
+        "parraf-3": "Un enfoque sostenible es fundamental en una arquitectura bien pensada y responsable. Nuestro proyecto integra tecnologías de eficiencia energética pasiva y ofrece a los clientes diversas infraestructuras complementarias, incluyendo paneles fotovoltaicos y colectores solares, para promover el autoabastecimiento de energía eléctrica y agua caliente.",
+        "parraf-4": "La parquización con especies autóctonas favorece la integración con el entorno, mientras que la laguna bioambiental crea un hábitat ideal para aves y plantas acuáticas. Además, una huerta diseñada para la producción de vegetales y hierbas permite una conexión más profunda con los ciclos de la naturaleza."
     }
+
+    
 
 }

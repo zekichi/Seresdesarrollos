@@ -51,8 +51,16 @@
         "titulo-2": "Diseñado para la Sustentabilidad",
         "parraf-3": "Un enfoque sostenible es fundamental en una arquitectura bien pensada y responsable. Nuestro proyecto integra tecnologías de eficiencia energética pasiva y ofrece a los clientes diversas infraestructuras complementarias, incluyendo paneles fotovoltaicos y colectores solares, para promover el autoabastecimiento de energía eléctrica y agua caliente.",
         "parraf-4": "La parquización con especies autóctonas favorece la integración con el entorno, mientras que la laguna bioambiental crea un hábitat ideal para aves y plantas acuáticas. Además, una huerta diseñada para la producción de vegetales y hierbas permite una conexión más profunda con los ciclos de la naturaleza."
-    }
+    },
 
-    
+    "text-guemes":{
+        "parraf-1": "In Barrio Belgrano, we are developing a building with 30 apartments ranging from 40 to 80 square meters, some of which include an additional 11-square-meter loft. Its strategic location offers views of Lake Nahuel Huapi and is just 12 blocks from the city center, providing both convenience and accessibility."
+    },
+    "diseno-guemes": {
+        "titulo": "Desing",
+        "parraf-1": "Designed with a contemporary vision, Güemes Haus stands out as a high-performance product thanks to its innovative design and range of amenities. It is a unique offering with limited competition, as it is a building with only a few exclusive units.",
+        "parraf-2": "The project aims to promote a lifestyle in an exceptional natural setting through modern, functional, and sustainable architecture that integrates with the landscape while contributing to the local architectural heritage.",
+        "parraf-3": " El diseño arquitectónico emplea materiales de aspecto natural y de bajo mantenimiento, asegurando variedad en texturas y tonalidades que enriquecen la estética final."
+    }
 
 }

@@ -45,12 +45,21 @@
     },
 
     "diseño-are":{
-        "titulo": "Diseño",
+        "titulo": "Desing",
         "parraf-1": "The architecture by Studio Erppen is inspired by a deep connection with the landscape, achieving a harmonious fusion with nature. Its organic design features a faceted roof that blends subtly with the surroundings, evoking the rocky formations of the mountain range.",
         "parraf-2": "The result is a contemporary proposal that reflects the aesthetics and architectural approach of Central Europe, creating a space that is not only visually striking but also respects and enhances the natural beauty that surrounds it.",
         "titulo-2": "Designed for Sustainability",
         "parraf-3": "A sustainable approach is fundamental to well-thought-out and responsible architecture. Our project integrates passive energy efficiency technologies and offers clients various complementary infrastructures, including photovoltaic panels and solar collectors, to promote self-sufficiency in electricity and hot water.",
         "parraf-4": "Landscaping with native species fosters integration with the surroundings, while the bio-environmental lagoon creates an ideal habitat for birds and aquatic plants. Additionally, a garden designed for growing vegetables and herbs provides a deeper connection to nature's cycles."
-    }
+    },
 
+    "text-guemes":{
+        "parraf-1": "In Barrio Belgrano, we are developing a building with 30 apartments ranging from 40 to 80 square meters, some of which include an additional 11-square-meter loft. Its strategic location offers views of Lake Nahuel Huapi and is just 12 blocks from the city center, providing both convenience and accessibility."
+    },
+    "diseño-guemes": {
+        "titulo": "Desing",
+        "parraf-1": "Designed with a contemporary vision, Güemes Haus stands out as a high-performance product thanks to its innovative design and range of amenities. It is a unique offering with limited competition, as it is a building with only a few exclusive units.",
+        "parraf-2": "The project aims to promote a lifestyle in an exceptional natural setting through modern, functional, and sustainable architecture that integrates with the landscape while contributing to the local architectural heritage.",
+        "parraf-3": "The architectural design utilizes natural-looking, low-maintenance materials, ensuring a variety of textures and tones that enhance the overall aesthetic appeal."
+    }
 }

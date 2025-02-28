@@ -33,7 +33,7 @@
 
 
     "estado":{
-        "titulo": "Project Status"
+        "titulo": "Estado del proyecto"
     },
 
 
@@ -45,7 +45,7 @@
         "parraf-4": " Las casas están orientadas hacia el norte, con grandes ventanales que se abren al impresionante paisaje. El deck conecta con un jardín privado, y más allá, la cancha de polo, mientras que las laderas boscosas del Cerro Otto enmarcan vistas espectaculares desde cada residencia."
     },
     "diseño-are":{
-        "titulo": "Desing",
+        "titulo": "Diseño",
         "parraf-1": "La arquitectura del estudio Erppen está inspirada en una profunda conexión con el paisaje, logrando una fusión armoniosa con la naturaleza. Su diseño orgánico presenta una cubierta facetada que se integra de manera sutil con el entorno, evocando las formaciones rocosas de la cordillera.",
         "parraf-2": " El resultado es una propuesta contemporánea que refleja la estética y el enfoque arquitectónico de la Europa central, creando un espacio que no solo es visualmente impactante, sino que también respeta y realza la belleza natural que lo rodea.",
         "titulo-2": "Diseñado para la Sustentabilidad",
@@ -54,13 +54,15 @@
     },
 
     "text-guemes":{
-        "parraf-1": "In Barrio Belgrano, we are developing a building with 30 apartments ranging from 40 to 80 square meters, some of which include an additional 11-square-meter loft. Its strategic location offers views of Lake Nahuel Huapi and is just 12 blocks from the city center, providing both convenience and accessibility."
+        "parraf-1": "En barrio Belgrano, estamos desarrollando un edificio con 30 departamentos que varían entre 40 y 80 metros cuadrados, algunos de ellos con un loft adicional de 11 m2. Su ubicación estratégica ofrece vistas al lago Nahuel Huapi y se encuentran a tan solo 12 cuadras del centro de la ciudad, brindando comodidad y accesibilidad."
     },
-    "diseno-guemes": {
-        "titulo": "Desing",
-        "parraf-1": "Designed with a contemporary vision, Güemes Haus stands out as a high-performance product thanks to its innovative design and range of amenities. It is a unique offering with limited competition, as it is a building with only a few exclusive units.",
-        "parraf-2": "The project aims to promote a lifestyle in an exceptional natural setting through modern, functional, and sustainable architecture that integrates with the landscape while contributing to the local architectural heritage.",
+    "diseño-guemes": {
+        "titulo": "Diseño",
+        "parraf-1": "Diseñado con una cisión contemporánea, Güemes Haus se destaca como un producto de alta prestaciones gracias a su innovador diseño y oferta de amenites. Es una propuesta con escac competencia, al tratarse de un edificio con pocas unidades.",
+        "parraf-2": "El proyecto busca fomentar un estilo de vida en un entorno natural excepcional, a través de una arquitectura actual, funcional y sostenible que se integre al paisaje, al mismo tiempo que aporte al patrimonio arquitectónico local.",
         "parraf-3": " El diseño arquitectónico emplea materiales de aspecto natural y de bajo mantenimiento, asegurando variedad en texturas y tonalidades que enriquecen la estética final."
     }
+
+
 
 }

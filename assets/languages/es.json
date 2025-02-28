@@ -61,6 +61,21 @@
         "parraf-1": "Diseñado con una cisión contemporánea, Güemes Haus se destaca como un producto de alta prestaciones gracias a su innovador diseño y oferta de amenites. Es una propuesta con escac competencia, al tratarse de un edificio con pocas unidades.",
         "parraf-2": "El proyecto busca fomentar un estilo de vida en un entorno natural excepcional, a través de una arquitectura actual, funcional y sostenible que se integre al paisaje, al mismo tiempo que aporte al patrimonio arquitectónico local.",
         "parraf-3": " El diseño arquitectónico emplea materiales de aspecto natural y de bajo mantenimiento, asegurando variedad en texturas y tonalidades que enriquecen la estética final."
+    },
+
+    "text-san":{
+        "des": "Description",
+        "parraf-d": "Desarrollo elegante y moderno en el corazón de Bariloche, fusionando diseño, naturaleza y comodidad. A pasos del microcentro, del bosque y del lago Nahuel Huapi. ",
+        "ubi": "Ubicación",
+        "ubicacion": "Bariloche, Av. San Martín.",
+        "uni": "Unidades",
+        "unidades": "12 Unidades monoambientes de 36 m2<br>9 Unidades monoambientes de 42 m2<br>3 Unidades monoambientes de 52 m2<br>3 Unidades monoambientes de 56m2 con patio jardín<br>3 Unidades dos ambientes triplex de 104 m2 con terraza<br>6 cocheras en subsuelo<br>1 local comercial de 40 m2"
+    },
+    "diseño-san":{
+        "carac": "Características",
+        "parraf-c": "Arquitectura moderna con materiales nobles (piedra, granito, madera).<br>Tecnología para el confort, incluyendo iluminación en áreas comunes a través de paneles solares y domótica para la seguridad, con opciones para automatizar alarmas, persianas, iluminación, sonido, TV y calefacción.<br>Eficiencia térmica, con calefacción central y aire acondicionado.<br>Aislamiento térmico y acústico, con carpintería de PVC símil madera y vidrios dobles.<br>Ascensor de primera marca y detalles de terminación de alta calidad.",
+        "ventajas": "Ventajas",
+        "parraf-v": "Ubicación privilegiada en el centro de Bariloche.<br>Fácil acceso a la gastronomía, el comercio y las actividades recreativas.<br>Impresionantes vistas al lago y a los cerros Otto y Runge.<br>Alto potencial de inversión como residencia o para alquiler turístico."
     }
 
 

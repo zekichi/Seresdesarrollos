@@ -61,5 +61,24 @@
         "parraf-1": "Designed with a contemporary vision, Güemes Haus stands out as a high-performance product thanks to its innovative design and range of amenities. It is a unique offering with limited competition, as it is a building with only a few exclusive units.",
         "parraf-2": "The project aims to promote a lifestyle in an exceptional natural setting through modern, functional, and sustainable architecture that integrates with the landscape while contributing to the local architectural heritage.",
         "parraf-3": "The architectural design utilizes natural-looking, low-maintenance materials, ensuring a variety of textures and tones that enhance the overall aesthetic appeal."
+    },
+
+
+    "text-san":{
+        "des": "Description",
+        "parraf-d": "An elegant and modern development in the heart of Bariloche, blending design, nature, and comfort. Just steps away from the city center, the forest, and Lake Nahuel Huapi.",
+        "ubi": "Ubication",
+        "ubicacion": "Bariloche, Av. San Martín.",
+        "uni": "Units",
+        "unidades": "12 studio units of 36 m2. 9 studio units of 42 m2. 3 studio units of 52 m2. 3 studio units of 56 m2 with garden patio. 3 two-bedroom triplex units of 104 m² with terrace. 6 underground parking spaces. 1 commercial space of 40 m²."
+    },
+    "diseño-san":{
+        "carac": "Features",
+        "parraf-c": "Modern architecture with noble materials (stone, granite, wood).<br>Comfort-enhancing technology, including solar-powered lighting for common areas and smart home automation for security, with options to automate alarms, blinds, lighting, sound, TV, and heating.<br>Thermal efficiency, featuring central heating and air conditioning.<br>Thermal and acoustic insulation, with wood-like PVC carpentry and double-glazed windows.<br>Premium brand elevator and high-quality finishing details.",
+        "ventajas": "Ventajas",
+        "parraf-v": "Prime location in the center of Bariloche.<br>Easy access to dining, shopping, and recreational activities.<br>Stunning views of the lake and Mounts Otto and Runge.<br>High investment potential as a residence or for tourist rentals."
     }
+
+        
+
 }

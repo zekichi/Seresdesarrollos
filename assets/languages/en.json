@@ -77,6 +77,25 @@
         "parraf-c": "Modern architecture with noble materials (stone, granite, wood).<br>Comfort-enhancing technology, including solar-powered lighting for common areas and smart home automation for security, with options to automate alarms, blinds, lighting, sound, TV, and heating.<br>Thermal efficiency, featuring central heating and air conditioning.<br>Thermal and acoustic insulation, with wood-like PVC carpentry and double-glazed windows.<br>Premium brand elevator and high-quality finishing details.",
         "ventajas": "Ventajas",
         "parraf-v": "Prime location in the center of Bariloche.<br>Easy access to dining, shopping, and recreational activities.<br>Stunning views of the lake and Mounts Otto and Runge.<br>High investment potential as a residence or for tourist rentals."
+    },
+
+
+    "text-live":{
+        "des":"Description",
+        "parraf-d": "Seres Live O'Connor is a development focused on meeting the needs of security, comfort, and architectural design, while maintaining high construction quality and sustainability, with amenities for a harmonious and healthy life or stay.",
+        "ubi": "Ubication",
+        "ubicacion": "Just meters from the waterfront and the source of the Ñireco Stream, and just a few blocks from the center of Bariloche.",
+        "uni": "Units",
+        "unidades": "37 studio apartments of 38 m2.<br>12 two-bedroom apartments of 60 m2.<br>8 three-bedroom apartments with terrace, featuring 55 m2 of covered space and 20 m2 of uncovered space.<br>4 four-bedroom apartments with terrace, featuring 70 m2 of covered space and 70 m2 of uncovered space.",
+        "coc": "Garage",
+        "cochera":"22 underground parking spaces accessible via a vehicular ramp."
+
+    },
+    "diseño-live":{
+        "titulo": "Features",
+        "parraf-d": "Modern architecture and innovative design.<br>Leisure, fitness, and relaxation spaces: heated indoor pool, gym, and gardens.<br>Thermal efficiency, with high-recovery central heating and air conditioning for both cooling and heating.<br>Thermal and acoustic insulation, with wood-like PVC carpentry and double-glazed windows.<br>High-quality finishing details, including Patagonian porphyry stone cladding and reconstituted granite flooring.<br>Smart home automation for security, with the possibility to automate alarms, blinds, lighting, sound, TV, and heating.",
+        "ventajas": "Highligths",
+        "parraf-v": "Privileged location surrounded by natural beauty and close to the city center.<br>Access to dining, shopping, and recreational activities.<br>Equipped with common areas featuring high-quality infrastructure for fitness and leisure.<br>Ideal for long-term or short-term rentals."
     }
 
         

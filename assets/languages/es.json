@@ -76,7 +76,27 @@
         "parraf-c": "Arquitectura moderna con materiales nobles (piedra, granito, madera).<br>Tecnología para el confort, incluyendo iluminación en áreas comunes a través de paneles solares y domótica para la seguridad, con opciones para automatizar alarmas, persianas, iluminación, sonido, TV y calefacción.<br>Eficiencia térmica, con calefacción central y aire acondicionado.<br>Aislamiento térmico y acústico, con carpintería de PVC símil madera y vidrios dobles.<br>Ascensor de primera marca y detalles de terminación de alta calidad.",
         "ventajas": "Ventajas",
         "parraf-v": "Ubicación privilegiada en el centro de Bariloche.<br>Fácil acceso a la gastronomía, el comercio y las actividades recreativas.<br>Impresionantes vistas al lago y a los cerros Otto y Runge.<br>Alto potencial de inversión como residencia o para alquiler turístico."
+    },
+
+
+    "text-live":{
+        "des":"Descripción",
+        "parraf-d": "Seres Live O'Connor es un desarrollo enfocado den cumplir con las necesidades de seguridad, confort y diseño arquitectónico, manteniendo la alta calidad constructiva y la sustentabilidad, con amenites para una vida o estadía emn armonía y saludable",
+        "ubi": "Ubicación",
+        "ubicacion": "A metros de la costanera y de la naciente del Arroyo Ñireco, a pocas cuadras del centreo de Bariloche.",
+        "uni": "Unidades",
+        "unidades": "37 Monoambientes de 38 m2.<br>12 Dos ambiente de 60 m2. <br> 8 Tres ambientes con terraza de 55 m2 cubiertos y 20 m2 descubiertos. <br> 4 Cuatro ambientes con terraza de 70 m2 cubiertos y 70 m2 descubiertos.",
+        "coc": "Cochera",
+        "cochera":"22 plazas de estacionamiento en subsuelo accesible con rampa vehicular."
+
+    },
+    "diseño-live":{
+        "titulo": "Características",
+        "parraf-d": "Aquitectura moderna y diseño innovador.<br>Espacios de esparcimiento, ejercitación y relax: piscina cubierta climatizada, gimnasio y jardines.<br>Eficiencia térmica, calefacción central de alta recuperación y aire acondicionado frío-calor.<br>Aislación térmica y acústica, con carpintería de PVC símil madera y vidrios dobles.<br>Detalles de terminación a la vista, revestimiento de piedra pórfido patagónico y solados de granito reconstituido.<br>Domótica para la seguridad, con posibilidad de automatizar alarma, cortinas, iluminación, sonido, TV y calefacción.",
+        "ventajas": "Ventajas",
+        "parraf-v": "Ubicación privilegiada por su entorno natural y cercanía con el centro.<br>Acceso a gastronomía, comercio y recreación.<br>Dotado de áreas comunes con infraestructura de calidad para la ejercitación y la recreación.<br>Ideal para alquiler permanente o alquiler temporario."
     }
+
 
 
 
